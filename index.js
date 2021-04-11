@@ -24,7 +24,9 @@ function UserDefinedAPI() {
 
 }
 function myFunction(confirm, death, active) {
+    var parent = document.getElementsByClassName("result");
     var para = document.createElement("div");
+    para.classList.add("result");
     para.innerHTML = "Confirmed cases : " + confirm + " " +
         "<br>Active Cases : " + active + " " +
         "<br>Death Cases : " + death;
