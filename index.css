@@ -1,0 +1,39 @@
+﻿body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    background-size: 100% cover !important;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    padding: 50px;
+}
+#btn {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 2px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.area {
+    background-color: #ebeae6;
+    border-radius: 4px;
+    border: none;
+}
+.label-text {
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: Abel;
+    color: red;
+}
+.main {
+    text-align: center;
+    font-size: 150%;
+    text-shadow: yellow 1px 0 10px;
+}

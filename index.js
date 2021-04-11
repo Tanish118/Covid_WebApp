@@ -13,7 +13,7 @@ function UserDefinedAPI() {
         if (request.status >= 200 && request.status < 400) {
 
             data.forEach((movie) => {
-                myFunction(movie.Active, movie.Deaths, movie.Recovered);
+                myFunction(movie.Confirmed, movie.Active, movie.Deaths);
             })
         } else {
             console.log('error')
@@ -23,9 +23,9 @@ function UserDefinedAPI() {
     request.send();
 
 }
-function myFunction(active, death, recovered) {
+function myFunction(confirmed, active, death) {
     var para = document.createElement("P");
-    para.innerText = active + " " + death + " " + recovered;
+    para.innerText = confirmed + " " + active + " " + death;
     document.body.appendChild(para);
    
 }
