@@ -39,7 +39,8 @@
 .result{
     text-align: center;
     font-size: large;
-   background-color: lightgrey;
+   background-color: Blue;
    margin-top: 10px;
    width:50%;
+   color:aliceblue;
 }
