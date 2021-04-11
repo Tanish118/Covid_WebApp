@@ -36,9 +36,10 @@
     font-size: 150%;
 }
 
-.result {
+.result{
     text-align: center;
     font-size: large;
-    background-color: lightgrey;
-    margin-top: 10px;
+   background-color: lightgrey;
+   margin-top: 10px;
+   width:50%;
 }
