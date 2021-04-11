@@ -31,9 +31,17 @@
     margin: 10px 0;
     font-family: Abel;
     color: red;
+    text-shadow: yellow 1px 0 10px;
+    text-align: center;
+    font-size: 150%;
 }
 .main {
     text-align: center;
     font-size: 150%;
     text-shadow: yellow 1px 0 10px;
+}
+div {
+    text-align: center;
+    font-size: large;
+   background-color: white;
 }

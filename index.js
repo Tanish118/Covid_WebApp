@@ -23,9 +23,11 @@ function UserDefinedAPI() {
     request.send();
 
 }
-function myFunction(confirmed, active, death) {
-    var para = document.createElement("P");
-    para.innerText = confirmed + " " + active + " " + death;
+function myFunction(confirm, death, active) {
+    var para = document.createElement("div");
+    para.innerHTML = "Confirmed cases : " + confirm + " " +
+        "<br>Active Cases : " + active + " " +
+        "<br>Death Cases : " + death;
     document.body.appendChild(para);
-   
+
 }
